@@ -15,7 +15,8 @@ struct PictureBookApp: App {
                 ScrollView {
                     TabView {
                         IntroPage()
-                        StoryPage()
+                        StoryPage1()
+                        StoryPage2()
                         FinalPage()
                     }
                     //issue on iPad where it stretches to portrait scrollview instead of landscape goes away if I switch the width and height values below.

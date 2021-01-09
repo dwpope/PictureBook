@@ -13,7 +13,9 @@
 		820931DC259DF48F0032B6C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820931DB259DF48F0032B6C2 /* Preview Assets.xcassets */; };
 		820931E5259DF5A10032B6C2 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931E4259DF5A10032B6C2 /* IntroPage.swift */; };
 		820931EC259DF69D0032B6C2 /* FinalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931EB259DF69D0032B6C2 /* FinalPage.swift */; };
-		820931F7259DFC430032B6C2 /* StoryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931F6259DFC430032B6C2 /* StoryPage.swift */; };
+		820931F7259DFC430032B6C2 /* StoryPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931F6259DFC430032B6C2 /* StoryPage1.swift */; };
+		82FE33B025AA1BF8009CAB8F /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE33AF25AA1BF8009CAB8F /* StoryData.swift */; };
+		82FE33B325AA1DF3009CAB8F /* StoryPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +27,9 @@
 		820931DD259DF48F0032B6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		820931E4259DF5A10032B6C2 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
 		820931EB259DF69D0032B6C2 /* FinalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPage.swift; sourceTree = "<group>"; };
-		820931F6259DFC430032B6C2 /* StoryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage.swift; sourceTree = "<group>"; };
+		820931F6259DFC430032B6C2 /* StoryPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage1.swift; sourceTree = "<group>"; };
+		82FE33AF25AA1BF8009CAB8F /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
+		82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				820931E4259DF5A10032B6C2 /* IntroPage.swift */,
-				820931F6259DFC430032B6C2 /* StoryPage.swift */,
+				820931F6259DFC430032B6C2 /* StoryPage1.swift */,
+				82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */,
+				82FE33AF25AA1BF8009CAB8F /* StoryData.swift */,
 				820931EB259DF69D0032B6C2 /* FinalPage.swift */,
 			);
 			path = Pages;
@@ -156,10 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				820931E5259DF5A10032B6C2 /* IntroPage.swift in Sources */,
-				820931F7259DFC430032B6C2 /* StoryPage.swift in Sources */,
+				82FE33B325AA1DF3009CAB8F /* StoryPage2.swift in Sources */,
+				820931F7259DFC430032B6C2 /* StoryPage1.swift in Sources */,
 				820931EC259DF69D0032B6C2 /* FinalPage.swift in Sources */,
 				820931D7259DF48C0032B6C2 /* ContentView.swift in Sources */,
 				820931D5259DF48C0032B6C2 /* PictureBookApp.swift in Sources */,
+				82FE33B025AA1BF8009CAB8F /* StoryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

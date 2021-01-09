@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StoryPage: View {
+struct StoryPage2: View {
     var body: some View {
         ZStack (alignment: .bottomLeading){
             GeometryReader { geometry in
@@ -17,17 +17,16 @@ struct StoryPage: View {
                 .frame(width: geometry.size.width, height: nil, alignment: .center)
             }
             VStack {
-                Text("There are many special things in this world, my love, but the most special thing is you.")
+                Text("Page 2.")
                     .font(.body)
-                Text("Merge with master then push to repository")
             }
             .padding(32)
         }
     }
 }
 
-struct StoryPage_Previews: PreviewProvider {
+struct StoryPage2_Previews: PreviewProvider {
     static var previews: some View {
-        StoryPage()
+        StoryPage2()
     }
 }
