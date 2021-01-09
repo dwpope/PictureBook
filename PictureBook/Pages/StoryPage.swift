@@ -19,7 +19,7 @@ struct StoryPage: View {
             VStack {
                 Text("There are many special things in this world, my love, but the most special thing is you.")
                     .font(.body)
-                Rectangle()
+                Circle()
             }
             .padding(32)
         }
