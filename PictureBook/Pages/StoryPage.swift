@@ -20,6 +20,7 @@ struct StoryPage: View {
                 Text("There are many special things in this world, my love, but the most special thing is you.")
                     .font(.body)
                 Circle()
+                Text("Text")
             }
             .padding(32)
         }
