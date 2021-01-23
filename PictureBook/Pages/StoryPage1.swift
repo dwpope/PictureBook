@@ -11,7 +11,7 @@ struct StoryPage1: View {
     var body: some View {
         ZStack (alignment: .bottomLeading){
             GeometryReader { geometry in
-            Image("Test")
+            Image("Page1")
                 .resizable()
                 .scaledToFit()
                 .frame(width: geometry.size.width, height: nil, alignment: .center)
