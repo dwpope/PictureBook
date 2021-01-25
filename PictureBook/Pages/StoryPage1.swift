@@ -17,19 +17,19 @@ struct StoryPage1: View {
                     .frame(width: geometry.size.width, height: nil, alignment: .center)
             }
             ZStack {
-                
+
                 Text("There are many special things in this world, but the most special of all is you.")
                     .foregroundColor(.black)
                     .font(.body)
                     .padding(24)
-                    .cornerRadius(16)
-                    .background(
-                        RoundedRectangle(cornerRadius: 16, style: .continuous)
-                            .fill(Color.white)
-                            .opacity(0.72)
-                    )
+                    .background(BlurView(style: .light))
+                    .cornerRadius(24)
+//                    .background(
+//                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+//                            .fill(Color.white)
+//                            .opacity(0.72)
+//                    )
             }.padding(24)
-            
         }
     }
 }
