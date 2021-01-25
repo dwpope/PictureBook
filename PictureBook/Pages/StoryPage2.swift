@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StoryPage2: View {
     var body: some View {
-        ZStack (alignment: .bottomLeading){
+        ZStack (alignment: .bottom){
             GeometryReader { geometry in
             Image("Test")
                 .resizable()
@@ -30,3 +30,4 @@ struct StoryPage2_Previews: PreviewProvider {
         StoryPage2()
     }
 }
+
