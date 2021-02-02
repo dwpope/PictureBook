@@ -1,23 +1,23 @@
 //
-//  LottieView.swift
+//  BokehLottie.swift
 //  PictureBook
 //
-//  Created by Dave Pope on 23/01/2021.
+//  Created by Dave Pope on 28/01/2021.
 //
 
 import Lottie
 import SwiftUI
 import UIKit
 
-struct LottieView: UIViewRepresentable {
+struct BokehLottie: UIViewRepresentable {
     typealias UIViewType = UIView
     
-    func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
+    func makeUIView(context: UIViewRepresentableContext<BokehLottie>) -> UIView {
         let view = UIView(frame: .zero)
         
         // Add animation
         let animationView = AnimationView()
-        animationView.animation = Animation.named("swipePrompt")
+        animationView.animation = Animation.named("bokeh")
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         animationView.play()
@@ -32,8 +32,15 @@ struct LottieView: UIViewRepresentable {
         
         return view
     }
-    
-    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<LottieView>) {
-        // do nothing
+
+    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<BokehLottie>) {
+        // Do nothing
     }
 }
+
+//
+//    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<LottieView>) {
+//        // do nothings
+//    }
+//}
+

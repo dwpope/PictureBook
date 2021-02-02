@@ -11,16 +11,31 @@ struct StoryPage2: View {
     var body: some View {
         ZStack (alignment: .bottom){
             GeometryReader { geometry in
-            Image("Test")
-                .resizable()
-                .scaledToFit()
-                .frame(width: geometry.size.width, height: nil, alignment: .center)
+                Image("Page1")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: geometry.size.width, height: nil, alignment: .center)
             }
-            VStack {
-                Text("Page 2.")
+            ZStack {
+
+                Text("There's elephants, lions, giraffes and rhinos. But none are more special than you.")
+                    .foregroundColor(.black)
                     .font(.body)
+                    .padding(.top, 16)
+                    .padding(.bottom, 16)
+                    .padding(.leading, 24)
+                    .padding(.trailing, 24)
+                    .background(BlurView(style: .light))
+                    .cornerRadius(24)
+//                    .background(
+//                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+//                            .fill(Color.white)
+//                            .opacity(0.72)
+//                    )
             }
-            .padding(32)
+            .padding(.leading, 32)
+            .padding(.trailing, 32)
+            .padding(.bottom, 24)
         }
     }
 }
@@ -30,4 +45,3 @@ struct StoryPage2_Previews: PreviewProvider {
         StoryPage2()
     }
 }
-

@@ -12,13 +12,16 @@
 		5A90656125BCE9E100B24423 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A90656025BCE9E100B24423 /* loading.json */; };
 		5A90656625BE0A7A00B24423 /* swipePrompt.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A90656525BE0A7A00B24423 /* swipePrompt.json */; };
 		5A90657A25BF7F1500B24423 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90657925BF7F1500B24423 /* BlurView.swift */; };
+		5A90657D25BF8C5F00B24423 /* StoryPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A90657C25BF8C5F00B24423 /* StoryPage3.swift */; };
+		5AFC7FF525C37BD7000D4672 /* StoryPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC7FF425C37BD7000D4672 /* StoryPage1.swift */; };
+		5AFC7FF925C37D52000D4672 /* bokeh.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AFC7FF825C37D52000D4672 /* bokeh.json */; };
+		5AFC800025C37E85000D4672 /* BokehLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFC7FFF25C37E85000D4672 /* BokehLottie.swift */; };
 		820931D5259DF48C0032B6C2 /* PictureBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931D4259DF48C0032B6C2 /* PictureBookApp.swift */; };
 		820931D7259DF48C0032B6C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931D6259DF48C0032B6C2 /* ContentView.swift */; };
 		820931D9259DF48F0032B6C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820931D8259DF48F0032B6C2 /* Assets.xcassets */; };
 		820931DC259DF48F0032B6C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820931DB259DF48F0032B6C2 /* Preview Assets.xcassets */; };
 		820931E5259DF5A10032B6C2 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931E4259DF5A10032B6C2 /* IntroPage.swift */; };
 		820931EC259DF69D0032B6C2 /* FinalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931EB259DF69D0032B6C2 /* FinalPage.swift */; };
-		820931F7259DFC430032B6C2 /* StoryPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820931F6259DFC430032B6C2 /* StoryPage1.swift */; };
 		82FE33B025AA1BF8009CAB8F /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE33AF25AA1BF8009CAB8F /* StoryData.swift */; };
 		82FE33B325AA1DF3009CAB8F /* StoryPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +31,10 @@
 		5A90656025BCE9E100B24423 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = loading.json; path = ../../../../../Downloads/loading.json; sourceTree = "<group>"; };
 		5A90656525BE0A7A00B24423 /* swipePrompt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = swipePrompt.json; path = "Design files/Swipe to the left animation/JSON output/swipePrompt.json"; sourceTree = SOURCE_ROOT; };
 		5A90657925BF7F1500B24423 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		5A90657C25BF8C5F00B24423 /* StoryPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage3.swift; sourceTree = "<group>"; };
+		5AFC7FF425C37BD7000D4672 /* StoryPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage1.swift; sourceTree = "<group>"; };
+		5AFC7FF825C37D52000D4672 /* bokeh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bokeh.json; path = "Design files/Bokeh Background/bokeh.json"; sourceTree = SOURCE_ROOT; };
+		5AFC7FFF25C37E85000D4672 /* BokehLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokehLottie.swift; sourceTree = "<group>"; };
 		820931D1259DF48C0032B6C2 /* PictureBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		820931D4259DF48C0032B6C2 /* PictureBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBookApp.swift; sourceTree = "<group>"; };
 		820931D6259DF48C0032B6C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,7 +43,6 @@
 		820931DD259DF48F0032B6C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		820931E4259DF5A10032B6C2 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
 		820931EB259DF69D0032B6C2 /* FinalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPage.swift; sourceTree = "<group>"; };
-		820931F6259DFC430032B6C2 /* StoryPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage1.swift; sourceTree = "<group>"; };
 		82FE33AF25AA1BF8009CAB8F /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
 		82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPage2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				5A90656025BCE9E100B24423 /* loading.json */,
+				5AFC7FF825C37D52000D4672 /* bokeh.json */,
 				5A90656525BE0A7A00B24423 /* swipePrompt.json */,
 			);
 			path = Lottie;
@@ -89,6 +96,7 @@
 				820931DD259DF48F0032B6C2 /* Info.plist */,
 				820931DA259DF48F0032B6C2 /* Preview Content */,
 				5A90655D25BCE6F000B24423 /* LottieView.swift */,
+				5AFC7FFF25C37E85000D4672 /* BokehLottie.swift */,
 			);
 			path = PictureBook;
 			sourceTree = "<group>";
@@ -105,8 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				820931E4259DF5A10032B6C2 /* IntroPage.swift */,
-				820931F6259DFC430032B6C2 /* StoryPage1.swift */,
+				5AFC7FF425C37BD7000D4672 /* StoryPage1.swift */,
 				82FE33B225AA1DF3009CAB8F /* StoryPage2.swift */,
+				5A90657C25BF8C5F00B24423 /* StoryPage3.swift */,
 				82FE33AF25AA1BF8009CAB8F /* StoryData.swift */,
 				820931EB259DF69D0032B6C2 /* FinalPage.swift */,
 				5A90657925BF7F1500B24423 /* BlurView.swift */,
@@ -177,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AFC7FF925C37D52000D4672 /* bokeh.json in Resources */,
 				820931DC259DF48F0032B6C2 /* Preview Assets.xcassets in Resources */,
 				5A90656125BCE9E100B24423 /* loading.json in Resources */,
 				5A90656625BE0A7A00B24423 /* swipePrompt.json in Resources */,
@@ -193,10 +203,12 @@
 			files = (
 				820931E5259DF5A10032B6C2 /* IntroPage.swift in Sources */,
 				82FE33B325AA1DF3009CAB8F /* StoryPage2.swift in Sources */,
-				820931F7259DFC430032B6C2 /* StoryPage1.swift in Sources */,
+				5AFC7FF525C37BD7000D4672 /* StoryPage1.swift in Sources */,
 				820931EC259DF69D0032B6C2 /* FinalPage.swift in Sources */,
+				5A90657D25BF8C5F00B24423 /* StoryPage3.swift in Sources */,
 				820931D7259DF48C0032B6C2 /* ContentView.swift in Sources */,
 				5A90657A25BF7F1500B24423 /* BlurView.swift in Sources */,
+				5AFC800025C37E85000D4672 /* BokehLottie.swift in Sources */,
 				820931D5259DF48C0032B6C2 /* PictureBookApp.swift in Sources */,
 				82FE33B025AA1BF8009CAB8F /* StoryData.swift in Sources */,
 				5A90655E25BCE6F000B24423 /* LottieView.swift in Sources */,

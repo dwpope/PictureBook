@@ -1,8 +1,8 @@
 //
-//  StoryPage.swift
+//  StoryPage1.swift
 //  PictureBook
 //
-//  Created by David Pope on 31/12/2020.
+//  Created by Dave Pope on 28/01/2021.
 //
 
 import SwiftUI
@@ -11,17 +11,24 @@ struct StoryPage1: View {
     var body: some View {
         ZStack (alignment: .bottom){
             GeometryReader { geometry in
-                Image("Page1")
-                    .resizable()
+                BokehLottie()
+                    .frame(width: geometry.size.width, height: nil, alignment: .bottom)
+                
+                Rectangle()
+                    .opacity(0)
                     .scaledToFit()
-                    .frame(width: geometry.size.width, height: nil, alignment: .center)
+                    .frame(width: geometry.size.width, height: nil, alignment: .bottom)
+                    .background(BlurView(style: .systemUltraThinMaterialDark))
             }
+            
             ZStack {
-
-                Text("There are many special things in this world, but the most special of all is you.")
+                Text("There's many amazing things in this world. But none are more special than you.")
                     .foregroundColor(.black)
                     .font(.body)
-                    .padding(24)
+                    .padding(.top, 16)
+                    .padding(.bottom, 16)
+                    .padding(.leading, 24)
+                    .padding(.trailing, 24)
                     .background(BlurView(style: .light))
                     .cornerRadius(24)
 //                    .background(
@@ -29,14 +36,11 @@ struct StoryPage1: View {
 //                            .fill(Color.white)
 //                            .opacity(0.72)
 //                    )
-            }.padding(24)
+            }
+            .padding(.leading, 32)
+            .padding(.trailing, 32)
+            .padding(.bottom, 24)
         }
+        
     }
 }
-
-struct StoryPage1_Previews: PreviewProvider {
-    static var previews: some View {
-        StoryPage1()
-    }
-}
-
